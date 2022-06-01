@@ -1,8 +1,75 @@
-<style>
-	body { background-color :linear-gradient(rgb(89,208,255),rgb(255,255,255)); color : green;
+	
+	
+	body {
+		font-family: 'OpenSans'
+		background-color :aliceblue; color : green;
 		margin-left : 40px; margin-right : 40px;}
 	h3 { text-align : center; color : darked;}
 	hr { height : 5px; border : solid grey;
 		background-color : grey }
 	span { color : blue; font-size : 20px;}
-</style>
+	td,th {
+		color: green;
+		text-align: center;
+		}
+	table {
+		background-color: white;
+	}
+#header .logo a {
+	background: url(center_logo.png) no-repeat center top;
+	color: #000;
+	display: block;
+	height: 10px;
+	width: 76px;
+	padding-top: 68px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header > div, #footer > div {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+#nav {
+	display: inline-block;
+	list-style: none;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+}
+#nav ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li {
+	float: left;
+	width: 160px;
+	text-align: center;
+}
+#nav li a {
+	color: #818181;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#nav li a:hover {
+	color: white;
+	font-weight: bold;
+	background: pink;
+}
+#nav li.active a {
+	color: #f99600;
+}
+#gall {
+	color: black;
+	font-size: 25px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#footer {
+	background-color: #eee;
+	border-top: 1px solid #d8d8d8;
+	padding: 30px 0;
+}
