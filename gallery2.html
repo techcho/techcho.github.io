@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>마산고 무한상상실</title>
+	<script type="text/javascript" src="myscript.js"></script>
+	<link href="mystyle2.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		<div class="logo">
+			<a href="indexv2.html"><img src="logo.png"></a><br>in 마산고등학교
+		</div>
+		<ul id="nav">
+				<li>
+					<a href="gallery2.html">어떻게 생겼나요</a>
+				</li>
+				<li>
+					<a href="project.html">무엇을 할수있나요</a>
+				</li>
+				<li>
+					<a href="about.html">누가 만들었나요</a>
+				</li>
+				<li>
+					<a href="contact.html">함께 하고 싶어요</a>
+				</li>
+				<li>
+					<a href="http://masan-h.gne.go.kr/masan-h/main.do" target="_blank">학교 홈페이지</a>
+				</li>
+		</ul>
+	</div>
+<hr>
+<table>
+	<tbody id="gall">
+		<tr>
+			<td>&infin;&nbsp;무한상상실 입구&nbsp;&infin;<img class="img-gall" src="media/roby.jpg" 
+			onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" ></td>
+			<td>&infin;&nbsp;공학실(강의실)&nbsp;&infin;<img class="img-gall" src="media/classroom.jpg" 
+			onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)"></td>
+			<td>&infin;&nbsp;3D프린트&레이저커팅 Room&nbsp;&infin;<img class="img-gall" src="media/raser.jpg" 
+			onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)"></td>
+		</tr>
+		<tr>
+			<td>&infin;&nbsp;소회의실&nbsp;&infin;<img class="img-gall" src="media/mcr.jpg" 
+			onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)" ></td>
+			<td>&infin;&nbsp;목공실&nbsp;&infin;<img class="img-gall" src="media/carpentry.jpg" 
+			onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)"></td>
+			<td>&infin;&nbsp;목재재단실 Room&nbsp;&infin;<img class="img-gall" src="media/cuttingroom.jpg" 
+			onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)"></td>
+		</tr>
+	</tbody>
+</table>
+	<div id="footer">
+		<p style="color:black;">techedu@gne.go.kr
+	</div>
+	<script>
+	function zoomIn(event) {
+    event.target.style.width = "540px";
+    event.target.style.height = "360px";
+    event.target.style.transition = "all 0.5s";
+	}
+	function zoomOut(event) {
+    event.target.style.width = "320px";
+    event.target.style.height = "240px";
+    event.target.style.transition = "all 0.5s";
+  }
+</script>
+</body>
+</html>
