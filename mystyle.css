@@ -13,6 +13,7 @@ span{
 #header{
 	width:1280px;
 	height:25%;
+	text-align: center;
 }
 .logo{
 	width:240px;
@@ -32,6 +33,7 @@ span{
 	line-height: 100px;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 #nav ul {
 	display: inline-block;
