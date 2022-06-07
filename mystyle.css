@@ -8,7 +8,7 @@ body{
 	border-width: 1px;
 }
 span{
-color:magenta; font-weight:bold;
+	color:magenta; font-weight:bold;
 }
 
 #header{
@@ -49,6 +49,7 @@ color:magenta; font-weight:bold;
 	color: #818181;
 	font-size: 15px;
 	line-height: 30px;
+	font-weight: bold;
 	text-decoration: none;
 }
 #nav li a:hover {
@@ -65,8 +66,8 @@ color:magenta; font-weight:bold;
 	min-height:600px;
 	margin: 0 auto;
 	padding: 54px 40px;
-	border: 1px solid; 
 }
+	
 h1 {
 	color: #0100FF;
 	font-size: 30px;
@@ -88,13 +89,13 @@ p {
 	text-indent: 2em;
 	text-align: center;
 	color: #585858;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 24px;
+	line-height: 1em;
 	margin: 0 0 30px;
 }
 .main>img{
 	float:left;
-	width:640px; 
+	width:600px; 
 	height:405px;
 	-moz-border-radius: 50px;
 	-khtml-border-radius: 50px;
@@ -107,9 +108,48 @@ p {
 	line-height: 30px;
 	text-decoration: none;
 }
+
+#gall td { 
+	width :500px;
+	text-align : center;
+}
+
+#gear {
+	box-shadow: 5px 5px 2px grey;
+	background-color: white;
+	color: darkgreen;
+	font-size: 20px;
+	font-weight: bold;
+	width: 1200px;
+	height: 200px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-collapse : collapse;
+}
+#gear td { 
+	/*border : 1px solid black; */
+	width : 300px;
+	text-align : center;
+}
+#gear img{
+	margin: auto;
+	width:200px;
+	height:180px;
+}
+#gear p{
+	text-align: center;
+	color:black;
+	font-size: 18px;
+}
+
 .img-gall{
+	margin: 10px;
 	width: 320px;
 	height: 240px;
+}
+.map {
+	margin: 5%;
 }
 #footer{
 	height:10%;
