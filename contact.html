@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+  <title>무한상상실 사용/체험 신청</title>
+</head>
+
+<body>
+  <h2 class="content-head is-center"><span>무한상상실</span> 체험 또는 견학을 하고 싶다면<br>아래 신청서를 작성해주세요!</h2>
+  <aside>
+       <p>
+           무한상상실 체험/견학 등의 신청 내용과 희망 날짜를 적어주세요</p>
+           <p>연락받으실 e-mail 주소와 <b>연락처</b>를 적어주시면, 빠른 시간내에 연락드리겠습니다.
+       </p>
+   </aside>
+
+<!-- START HERE -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="style.css">
+
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbxXaAO7MvBTfuvO6dqf1iRaH1VXZJB_s1z5G-X5E47Rxdu07gs9/exec">
+    <!-- change the form action to your script url -->
+
+    <div class="form-elements">
+      <fieldset class="pure-group">
+        <label for="name">신청자 이름(또는 단체명): </label>
+        <input id="name" name="name" placeholder="이름을 입력하세요" />
+      </fieldset>
+	  
+	  <fieldset class="pure-group">
+        <label for="tel">전화번호: </label>
+        <input id="tel" name="tel" type="tel" placeholder="000-0000-0000" />
+      </fieldset>
+	  
+      <fieldset class="pure-group">
+        <label for="email">E-mail 주소:</label>
+        <input id="email" name="email" type="email" value=""
+        required placeholder="@email.com"/>
+      </fieldset>
+
+      <fieldset class="pure-group">
+        <label for="message">신청 내용: </label>
+        <textarea id="message" name="message" rows="5"
+        placeholder="신청하고자 하는 체험이나 강좌 내용을 입력하세요"></textarea>
+      </fieldset>
+
+      
+      <fieldset class="pure-group">
+        <label for="day">희망 날짜: </label>
+        <input id="color" name="day" type="date"/>
+      </fieldset>
+
+	  <fieldset class="pure-group">
+        <label for="time">희망 시간: </label>
+        <input id="color" name="time" type="time"/>
+      </fieldset>
+
+      <!--<fieldset class="pure-group honeypot-field">
+        <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+        <input id="honeypot" type="text" name="honeypot" value="" />
+      </fieldset> -->
+
+      <button class="button-success pure-button button-xlarge">
+        <i class="fa fa-paper-plane"></i>&nbsp;보내기</button>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div style="display:none;" class="thankyou_message">
+      <h2> 감사합니다! 빠른 시간내에 연락드리겠습니다!</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
+
+</body>
+</html>
