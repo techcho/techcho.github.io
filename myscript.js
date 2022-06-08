@@ -7,4 +7,10 @@
     event.target.style.width = "320px";
     event.target.style.height = "240px";
     event.target.style.transition = "all 0.5s";
-  }
+ 	 }
+	function over(obj) {
+		obj.src="media/3printer2.jpg";
+	}
+	function out(obj) {
+		obj.src="media/3printer.png";
+	}
